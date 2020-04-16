@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de7c8d29-f3e4-4eda-856d-890b322af446" name="Default Changelist" comment="" />
+    <list default="true" id="de7c8d29-f3e4-4eda-856d-890b322af446" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,13 +39,33 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Gradle.MyFirstTest.myFirstTest">
+  <component name="RunManager" selected="Gradle.MyFirstTest">
     <configuration name="MyFirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.MyFirstTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MyFirstTest.login" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.MyFirstTest.login&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -78,8 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MyFirstTest.myFirstTest" />
         <item itemvalue="Gradle.MyFirstTest" />
+        <item itemvalue="Gradle.MyFirstTest.login" />
+        <item itemvalue="Gradle.MyFirstTest.myFirstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -94,28 +119,79 @@
       <option name="presentableId" value="Default" />
       <updated>1584813334940</updated>
     </task>
+    <task id="LOCAL-00001" summary="First test">
+      <created>1584813825350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584813825350</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First test" />
+    <option name="LAST_COMMIT_MESSAGE" value="First test" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1584813770624">
+    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1584813824154">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1584813770624" />
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1584813790573">
+    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1584813824154" />
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1587053233516">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1584813790573" />
-    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1584813790573">
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1587053233516" />
+    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1587053233516">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1584813790573" />
-    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1584813790573">
+    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1587053233516" />
+    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1587053233516">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1584813790573" />
-    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1584813790573">
+    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1587053233516" />
+    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1587053233516">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1584813790573" />
+    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1587053233516" />
+    <state width="1492" height="256" key="GridCell.Tab.1.bottom" timestamp="1587052819342">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state width="1492" height="256" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1587052819342" />
+    <state width="1492" height="256" key="GridCell.Tab.1.center" timestamp="1587052819342">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state width="1492" height="256" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1587052819342" />
+    <state width="1492" height="256" key="GridCell.Tab.1.left" timestamp="1587052819342">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state width="1492" height="256" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1587052819342" />
+    <state width="1492" height="256" key="GridCell.Tab.1.right" timestamp="1587052819342">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state width="1492" height="256" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1587052819342" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1584813842490">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.826@0.0.1536.826" timestamp="1584813842490" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587052207158">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.826@0.0.1536.826" timestamp="1587052207158" />
+    <state x="425" y="182" key="run.anything.popup" timestamp="1587052768002">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="425" y="182" key="run.anything.popup/0.0.1536.826@0.0.1536.826" timestamp="1587052768002" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
