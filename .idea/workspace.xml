@@ -42,7 +42,7 @@
       <recent name="ru.stqa.training.selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MenuTest.verifyMenuItems">
+  <component name="RunManager" selected="Gradle.StickerTest.verifyStickers">
     <configuration name="MenuTest.verifyMenuItems" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -123,8 +123,29 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="StickerTest.verifyStickers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.StickerTest.verifyStickers&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StickerTest.verifyStickers" />
         <item itemvalue="Gradle.MenuTest.verifyMenuItems" />
         <item itemvalue="Gradle.MyFirstTest" />
         <item itemvalue="Gradle.MyFirstTest.login" />
@@ -157,59 +178,67 @@
       <option name="project" value="LOCAL" />
       <updated>1587053327898</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test to click menu items">
+      <created>1588877733097</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588877733097</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First test" />
     <MESSAGE value="Login test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login test" />
+    <MESSAGE value="Test to click menu items" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test to click menu items" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588709379987">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.826@0.0.1536.826" timestamp="1588709379987" />
-    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1587053325800">
+    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1588877730035">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1587053325800" />
-    <state width="1492" height="256" key="GridCell.Tab.0.bottom" timestamp="1588877512981">
+    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1588877730035" />
+    <state width="1492" height="256" key="GridCell.Tab.0.bottom" timestamp="1588879858025">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1588877512981" />
-    <state width="1492" height="256" key="GridCell.Tab.0.center" timestamp="1588877512981">
+    <state width="1492" height="256" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1588879858025" />
+    <state width="1492" height="256" key="GridCell.Tab.0.center" timestamp="1588879858025">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1588877512981" />
-    <state width="1492" height="256" key="GridCell.Tab.0.left" timestamp="1588877512980">
+    <state width="1492" height="256" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1588879858025" />
+    <state width="1492" height="256" key="GridCell.Tab.0.left" timestamp="1588879858024">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1588877512980" />
-    <state width="1492" height="256" key="GridCell.Tab.0.right" timestamp="1588877512981">
+    <state width="1492" height="256" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1588879858024" />
+    <state width="1492" height="256" key="GridCell.Tab.0.right" timestamp="1588879858025">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1588877512981" />
-    <state width="1492" height="256" key="GridCell.Tab.1.bottom" timestamp="1588877512981">
+    <state width="1492" height="256" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1588879858025" />
+    <state width="1492" height="256" key="GridCell.Tab.1.bottom" timestamp="1588879858025">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1588877512981" />
-    <state width="1492" height="256" key="GridCell.Tab.1.center" timestamp="1588877512981">
+    <state width="1492" height="256" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1588879858025" />
+    <state width="1492" height="256" key="GridCell.Tab.1.center" timestamp="1588879858025">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1588877512981" />
-    <state width="1492" height="256" key="GridCell.Tab.1.left" timestamp="1588877512981">
+    <state width="1492" height="256" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1588879858025" />
+    <state width="1492" height="256" key="GridCell.Tab.1.left" timestamp="1588879858025">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1588877512981" />
-    <state width="1492" height="256" key="GridCell.Tab.1.right" timestamp="1588877512981">
+    <state width="1492" height="256" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1588879858025" />
+    <state width="1492" height="256" key="GridCell.Tab.1.right" timestamp="1588879858025">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1588877512981" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587053337924">
+    <state width="1492" height="256" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1588879858025" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588877740741">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.826@0.0.1536.826" timestamp="1587053337924" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.826@0.0.1536.826" timestamp="1588877740741" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1588870614582">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
@@ -230,6 +259,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java</url>
           <line>25</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/StickerTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
