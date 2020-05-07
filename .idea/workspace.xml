@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de7c8d29-f3e4-4eda-856d-890b322af446" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/MyFirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,32 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Gradle.MyFirstTest">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.stqa.training.selenium" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MenuTest.verifyMenuItems">
+    <configuration name="MenuTest.verifyMenuItems" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.MenuTest.verifyMenuItems&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MyFirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -102,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MenuTest.verifyMenuItems" />
         <item itemvalue="Gradle.MyFirstTest" />
         <item itemvalue="Gradle.MyFirstTest.login" />
         <item itemvalue="Gradle.MyFirstTest.myFirstTest" />
@@ -126,62 +150,78 @@
       <option name="project" value="LOCAL" />
       <updated>1584813825350</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Login test">
+      <created>1587053327898</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587053327898</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First test" />
-    <option name="LAST_COMMIT_MESSAGE" value="First test" />
+    <MESSAGE value="Login test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1584813824154">
+    <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588709379987">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1584813824154" />
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1587053233516">
+    <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.826@0.0.1536.826" timestamp="1588709379987" />
+    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1587053325800">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1587053233516" />
-    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1587053233516">
+    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1587053325800" />
+    <state width="1492" height="256" key="GridCell.Tab.0.bottom" timestamp="1588877512981">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1587053233516" />
-    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1587053233516">
+    <state width="1492" height="256" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1588877512981" />
+    <state width="1492" height="256" key="GridCell.Tab.0.center" timestamp="1588877512981">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1587053233516" />
-    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1587053233516">
+    <state width="1492" height="256" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1588877512981" />
+    <state width="1492" height="256" key="GridCell.Tab.0.left" timestamp="1588877512980">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1587053233516" />
-    <state width="1492" height="256" key="GridCell.Tab.1.bottom" timestamp="1587052819342">
+    <state width="1492" height="256" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1588877512980" />
+    <state width="1492" height="256" key="GridCell.Tab.0.right" timestamp="1588877512981">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1587052819342" />
-    <state width="1492" height="256" key="GridCell.Tab.1.center" timestamp="1587052819342">
+    <state width="1492" height="256" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1588877512981" />
+    <state width="1492" height="256" key="GridCell.Tab.1.bottom" timestamp="1588877512981">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1587052819342" />
-    <state width="1492" height="256" key="GridCell.Tab.1.left" timestamp="1587052819342">
+    <state width="1492" height="256" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1588877512981" />
+    <state width="1492" height="256" key="GridCell.Tab.1.center" timestamp="1588877512981">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1587052819342" />
-    <state width="1492" height="256" key="GridCell.Tab.1.right" timestamp="1587052819342">
+    <state width="1492" height="256" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1588877512981" />
+    <state width="1492" height="256" key="GridCell.Tab.1.left" timestamp="1588877512981">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1587052819342" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1584813842490">
+    <state width="1492" height="256" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1588877512981" />
+    <state width="1492" height="256" key="GridCell.Tab.1.right" timestamp="1588877512981">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.826@0.0.1536.826" timestamp="1584813842490" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587052207158">
+    <state width="1492" height="256" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1588877512981" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587053337924">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.826@0.0.1536.826" timestamp="1587052207158" />
-    <state x="425" y="182" key="run.anything.popup" timestamp="1587052768002">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.826@0.0.1536.826" timestamp="1587053337924" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1588870614582">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="425" y="182" key="run.anything.popup/0.0.1536.826@0.0.1536.826" timestamp="1587052768002" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.826@0.0.1536.826" timestamp="1588870614582" />
+    <state x="425" y="182" key="run.anything.popup" timestamp="1588872779263">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="425" y="182" key="run.anything.popup/0.0.1536.826@0.0.1536.826" timestamp="1588872779263" />
+    <state x="431" y="147" width="672" height="678" key="search.everywhere.popup" timestamp="1588874157047">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="431" y="147" width="672" height="678" key="search.everywhere.popup/0.0.1536.826@0.0.1536.826" timestamp="1588874157047" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
