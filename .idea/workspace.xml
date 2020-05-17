@@ -42,13 +42,13 @@
       <recent name="ru.stqa.training.selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StickerTest.verifyStickers">
-    <configuration name="MenuTest.verifyMenuItems" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CountriesTest">
+    <configuration name="CountriesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.MenuTest.verifyMenuItems&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.CountriesTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -63,12 +63,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MyFirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CountriesTest.verifyCountiresSorting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.MyFirstTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.CountriesTest.verifyCountiresSorting&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -83,12 +83,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MyFirstTest.login" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CountriesTest.verifyCountriesSorting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.MyFirstTest.login&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.CountriesTest.verifyCountriesSorting&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -103,12 +103,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MyFirstTest.myFirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CountriesTest.verifyGeoZonesSorting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.MyFirstTest.myFirstTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.CountriesTest.verifyGeoZonesSorting&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -123,12 +123,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StickerTest.verifyStickers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CountriesTest.verifyZonesSorting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.StickerTest.verifyStickers&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.CountriesTest.verifyZonesSorting&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StickerTest.verifyStickers" />
-        <item itemvalue="Gradle.MenuTest.verifyMenuItems" />
-        <item itemvalue="Gradle.MyFirstTest" />
-        <item itemvalue="Gradle.MyFirstTest.login" />
-        <item itemvalue="Gradle.MyFirstTest.myFirstTest" />
+        <item itemvalue="Gradle.CountriesTest" />
+        <item itemvalue="Gradle.CountriesTest.verifyGeoZonesSorting" />
+        <item itemvalue="Gradle.CountriesTest.verifyZonesSorting" />
+        <item itemvalue="Gradle.CountriesTest.verifyCountriesSorting" />
+        <item itemvalue="Gradle.CountriesTest.verifyCountiresSorting" />
       </list>
     </recent_temporary>
   </component>
@@ -185,64 +185,72 @@
       <option name="project" value="LOCAL" />
       <updated>1588877733097</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test to check stickers">
+      <created>1588879898653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588879898653</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First test" />
     <MESSAGE value="Login test" />
     <MESSAGE value="Test to click menu items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test to click menu items" />
+    <MESSAGE value="Test to check stickers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test to check stickers" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588709379987">
+    <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589741928177">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.826@0.0.1536.826" timestamp="1588709379987" />
-    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1588877730035">
+    <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.826@0.0.1536.826" timestamp="1589741928177" />
+    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1589745766702">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1588877730035" />
-    <state width="1492" height="256" key="GridCell.Tab.0.bottom" timestamp="1588879858025">
+    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1589745766702" />
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1589745687477">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1588879858025" />
-    <state width="1492" height="256" key="GridCell.Tab.0.center" timestamp="1588879858025">
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1589745687477" />
+    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1589745687476">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1588879858025" />
-    <state width="1492" height="256" key="GridCell.Tab.0.left" timestamp="1588879858024">
+    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1589745687476" />
+    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1589745687476">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1588879858024" />
-    <state width="1492" height="256" key="GridCell.Tab.0.right" timestamp="1588879858025">
+    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1589745687476" />
+    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1589745687477">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1588879858025" />
-    <state width="1492" height="256" key="GridCell.Tab.1.bottom" timestamp="1588879858025">
+    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1589745687477" />
+    <state width="1492" height="256" key="GridCell.Tab.1.bottom" timestamp="1589745662968">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1588879858025" />
-    <state width="1492" height="256" key="GridCell.Tab.1.center" timestamp="1588879858025">
+    <state width="1492" height="256" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1589745662968" />
+    <state width="1492" height="256" key="GridCell.Tab.1.center" timestamp="1589745662968">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1588879858025" />
-    <state width="1492" height="256" key="GridCell.Tab.1.left" timestamp="1588879858025">
+    <state width="1492" height="256" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1589745662968" />
+    <state width="1492" height="256" key="GridCell.Tab.1.left" timestamp="1589745662968">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1588879858025" />
-    <state width="1492" height="256" key="GridCell.Tab.1.right" timestamp="1588879858025">
+    <state width="1492" height="256" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1589745662968" />
+    <state width="1492" height="256" key="GridCell.Tab.1.right" timestamp="1589745662968">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1588879858025" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588877740741">
+    <state width="1492" height="256" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1589745662968" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588879908812">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.826@0.0.1536.826" timestamp="1588877740741" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1588870614582">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.826@0.0.1536.826" timestamp="1588879908812" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1589740131753">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.826@0.0.1536.826" timestamp="1588870614582" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.826@0.0.1536.826" timestamp="1589740131753" />
     <state x="425" y="182" key="run.anything.popup" timestamp="1588872779263">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
@@ -261,9 +269,19 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/StickerTest.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CountriesTest.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CountriesTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CountriesTest.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
