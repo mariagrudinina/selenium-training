@@ -14,6 +14,16 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -42,13 +52,13 @@
       <recent name="ru.stqa.training.selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CountriesTest">
-    <configuration name="CountriesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ProductTest">
+    <configuration name="ProductTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.CountriesTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.ProductTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -63,12 +73,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CountriesTest.verifyCountiresSorting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ProductTest.verifyCampaignPriceStyleOnDetailedPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.CountriesTest.verifyCountiresSorting&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.ProductTest.verifyCampaignPriceStyleOnDetailedPage&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -83,12 +93,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CountriesTest.verifyCountriesSorting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ProductTest.verifyCampaignPriceStyleOnListPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.CountriesTest.verifyCountriesSorting&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.ProductTest.verifyCampaignPriceStyleOnListPage&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -103,12 +113,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CountriesTest.verifyGeoZonesSorting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ProductTest.verifyPriceSizesOnDetailedPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.CountriesTest.verifyGeoZonesSorting&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.ProductTest.verifyPriceSizesOnDetailedPage&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -123,12 +133,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CountriesTest.verifyZonesSorting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ProductTest.verifyPriceSizesOnListPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.CountriesTest.verifyZonesSorting&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.ProductTest.verifyPriceSizesOnListPage&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -145,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CountriesTest" />
-        <item itemvalue="Gradle.CountriesTest.verifyGeoZonesSorting" />
-        <item itemvalue="Gradle.CountriesTest.verifyZonesSorting" />
-        <item itemvalue="Gradle.CountriesTest.verifyCountriesSorting" />
-        <item itemvalue="Gradle.CountriesTest.verifyCountiresSorting" />
+        <item itemvalue="Gradle.ProductTest" />
+        <item itemvalue="Gradle.ProductTest.verifyPriceSizesOnDetailedPage" />
+        <item itemvalue="Gradle.ProductTest.verifyPriceSizesOnListPage" />
+        <item itemvalue="Gradle.ProductTest.verifyCampaignPriceStyleOnDetailedPage" />
+        <item itemvalue="Gradle.ProductTest.verifyCampaignPriceStyleOnListPage" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588879898653</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tests to check sorting">
+      <created>1589745815950</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589745815950</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -200,61 +217,118 @@
     <MESSAGE value="Login test" />
     <MESSAGE value="Test to click menu items" />
     <MESSAGE value="Test to check stickers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test to check stickers" />
+    <MESSAGE value="Tests to check sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests to check sorting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589741928177">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.826@0.0.1536.826" timestamp="1589741928177" />
-    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1589745766702">
+    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1589745811745">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1589745766702" />
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1589745687477">
+    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1589745811745" />
+    <state width="1492" height="256" key="GridCell.Tab.-1.bottom" timestamp="1590222417552">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1589745687477" />
-    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1589745687476">
+    <state width="1492" height="256" key="GridCell.Tab.-1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590222417552" />
+    <state width="1492" height="256" key="GridCell.Tab.-1.center" timestamp="1590222417551">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1589745687476" />
-    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1589745687476">
+    <state width="1492" height="256" key="GridCell.Tab.-1.center/0.0.1536.826@0.0.1536.826" timestamp="1590222417551" />
+    <state width="1492" height="256" key="GridCell.Tab.-1.left" timestamp="1590222417551">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1589745687476" />
-    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1589745687477">
+    <state width="1492" height="256" key="GridCell.Tab.-1.left/0.0.1536.826@0.0.1536.826" timestamp="1590222417551" />
+    <state width="1492" height="256" key="GridCell.Tab.-1.right" timestamp="1590222497001">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1589745687477" />
-    <state width="1492" height="256" key="GridCell.Tab.1.bottom" timestamp="1589745662968">
+    <state width="1492" height="256" key="GridCell.Tab.-1.right/0.0.1536.826@0.0.1536.826" timestamp="1590222497001" />
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1590227814174">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1589745662968" />
-    <state width="1492" height="256" key="GridCell.Tab.1.center" timestamp="1589745662968">
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590227814174" />
+    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1590227814174">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1589745662968" />
-    <state width="1492" height="256" key="GridCell.Tab.1.left" timestamp="1589745662968">
+    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1590227814174" />
+    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1590227814174">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1589745662968" />
-    <state width="1492" height="256" key="GridCell.Tab.1.right" timestamp="1589745662968">
+    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1590227814174" />
+    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1590227814174">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="256" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1589745662968" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588879908812">
+    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1590227814174" />
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.bottom" timestamp="1590227715560">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.826@0.0.1536.826" timestamp="1588879908812" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1589740131753">
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.center" timestamp="1590227715560">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.826@0.0.1536.826" timestamp="1589740131753" />
-    <state x="425" y="182" key="run.anything.popup" timestamp="1588872779263">
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.left" timestamp="1590227715560">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="425" y="182" key="run.anything.popup/0.0.1536.826@0.0.1536.826" timestamp="1588872779263" />
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.right" timestamp="1590227715560">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.bottom" timestamp="1590227715560">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.center" timestamp="1590227715560">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.center/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.left" timestamp="1590227715560">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.left/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.right" timestamp="1590227715560">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.right/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.bottom" timestamp="1590227715560">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.center" timestamp="1590227715560">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.center/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.left" timestamp="1590227715560">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.left/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.right" timestamp="1590227715560">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.right/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589745823809">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.826@0.0.1536.826" timestamp="1589745823809" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1590220789902">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.826@0.0.1536.826" timestamp="1590220789902" />
+    <state x="0" y="238" width="1477" height="265" key="dock-window-1" timestamp="1590222515145">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="0" y="238" width="1477" height="265" key="dock-window-1/0.0.1536.826@0.0.1536.826" timestamp="1590222515145" />
+    <state x="14" y="545" width="1477" height="265" key="dock-window-2" timestamp="1590222515145">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="14" y="545" width="1477" height="265" key="dock-window-2/0.0.1536.826@0.0.1536.826" timestamp="1590222515145" />
+    <state x="425" y="182" key="run.anything.popup" timestamp="1590224458480">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="425" y="182" key="run.anything.popup/0.0.1536.826@0.0.1536.826" timestamp="1590224458480" />
     <state x="431" y="147" width="672" height="678" key="search.everywhere.popup" timestamp="1588874157047">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
@@ -282,6 +356,81 @@
           <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CountriesTest.java</url>
           <line>80</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/ProductTest.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
