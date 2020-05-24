@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de7c8d29-f3e4-4eda-856d-890b322af446" name="Default Changelist" comment="">
+    <list default="true" id="de7c8d29-f3e4-4eda-856d-890b322af446" name="Default Changelist" comment="Tests to check registration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,53 +52,13 @@
       <recent name="ru.stqa.training.selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ProductTest">
+  <component name="RunManager" selected="Gradle.RegistrationTest">
     <configuration name="ProductTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.ProductTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ProductTest.verifyCampaignPriceStyleOnDetailedPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.ProductTest.verifyCampaignPriceStyleOnDetailedPage&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ProductTest.verifyCampaignPriceStyleOnListPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.ProductTest.verifyCampaignPriceStyleOnListPage&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -153,13 +113,53 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="RegistrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.RegistrationTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistrationTest.verifyRegistration" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.RegistrationTest.verifyRegistration&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RegistrationTest" />
+        <item itemvalue="Gradle.RegistrationTest.verifyRegistration" />
         <item itemvalue="Gradle.ProductTest" />
         <item itemvalue="Gradle.ProductTest.verifyPriceSizesOnDetailedPage" />
         <item itemvalue="Gradle.ProductTest.verifyPriceSizesOnListPage" />
-        <item itemvalue="Gradle.ProductTest.verifyCampaignPriceStyleOnDetailedPage" />
-        <item itemvalue="Gradle.ProductTest.verifyCampaignPriceStyleOnListPage" />
       </list>
     </recent_temporary>
   </component>
@@ -225,10 +225,10 @@
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.826@0.0.1536.826" timestamp="1589741928177" />
-    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1589745811745">
+    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1590311761518">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1589745811745" />
+    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1590311761518" />
     <state width="1492" height="256" key="GridCell.Tab.-1.bottom" timestamp="1590222417552">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
@@ -245,78 +245,78 @@
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state width="1492" height="256" key="GridCell.Tab.-1.right/0.0.1536.826@0.0.1536.826" timestamp="1590222497001" />
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1590227814174">
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1590311772323">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590227814174" />
-    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1590227814174">
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590311772323" />
+    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1590311772323">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1590227814174" />
-    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1590227814174">
+    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1590311772323" />
+    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1590311772323">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1590227814174" />
-    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1590227814174">
+    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1590311772323" />
+    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1590311772323">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1590227814174" />
-    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.bottom" timestamp="1590227715560">
+    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1590311772323" />
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.bottom" timestamp="1590311440458">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
-    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.center" timestamp="1590227715560">
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590311440458" />
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.center" timestamp="1590311440458">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
-    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.left" timestamp="1590227715560">
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1590311440458" />
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.left" timestamp="1590311440458">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
-    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.right" timestamp="1590227715560">
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1590311440458" />
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.right" timestamp="1590311440458">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.bottom" timestamp="1590227715560">
+    <state x="22" y="527" width="1492" height="256" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1590311440458" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.bottom" timestamp="1590311440459">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.center" timestamp="1590227715560">
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590311440459" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.center" timestamp="1590311440459">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.center/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.left" timestamp="1590227715560">
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.center/0.0.1536.826@0.0.1536.826" timestamp="1590311440459" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.left" timestamp="1590311440459">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.left/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.right" timestamp="1590227715560">
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.left/0.0.1536.826@0.0.1536.826" timestamp="1590311440459" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.right" timestamp="1590311440459">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.right/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.bottom" timestamp="1590227715560">
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.2.right/0.0.1536.826@0.0.1536.826" timestamp="1590311440459" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.bottom" timestamp="1590311440459">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.center" timestamp="1590227715560">
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590311440459" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.center" timestamp="1590311440459">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.center/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.left" timestamp="1590227715560">
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.center/0.0.1536.826@0.0.1536.826" timestamp="1590311440459" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.left" timestamp="1590311440459">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.left/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.right" timestamp="1590227715560">
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.left/0.0.1536.826@0.0.1536.826" timestamp="1590311440459" />
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.right" timestamp="1590311440459">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.right/0.0.1536.826@0.0.1536.826" timestamp="1590227715560" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589745823809">
+    <state x="0" y="238" width="1492" height="256" key="GridCell.Tab.3.right/0.0.1536.826@0.0.1536.826" timestamp="1590311440459" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1590228041572">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.826@0.0.1536.826" timestamp="1589745823809" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1590220789902">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.826@0.0.1536.826" timestamp="1590228041572" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1590305830226">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.826@0.0.1536.826" timestamp="1590220789902" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.826@0.0.1536.826" timestamp="1590305830226" />
     <state x="0" y="238" width="1477" height="265" key="dock-window-1" timestamp="1590222515145">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
@@ -325,14 +325,14 @@
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="14" y="545" width="1477" height="265" key="dock-window-2/0.0.1536.826@0.0.1536.826" timestamp="1590222515145" />
-    <state x="425" y="182" key="run.anything.popup" timestamp="1590224458480">
+    <state x="425" y="182" key="run.anything.popup" timestamp="1590310437188">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="425" y="182" key="run.anything.popup/0.0.1536.826@0.0.1536.826" timestamp="1590224458480" />
-    <state x="431" y="147" width="672" height="678" key="search.everywhere.popup" timestamp="1588874157047">
+    <state x="425" y="182" key="run.anything.popup/0.0.1536.826@0.0.1536.826" timestamp="1590310437188" />
+    <state x="431" y="147" width="672" height="678" key="search.everywhere.popup" timestamp="1590310434526">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="431" y="147" width="672" height="678" key="search.everywhere.popup/0.0.1536.826@0.0.1536.826" timestamp="1588874157047" />
+    <state x="431" y="147" width="672" height="678" key="search.everywhere.popup/0.0.1536.826@0.0.1536.826" timestamp="1590310434526" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
