@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de7c8d29-f3e4-4eda-856d-890b322af446" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/LinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/LinkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/tests/CartTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +46,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium-training-po-master/java-example" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.stqa.training.selenium.pages" />
       <recent name="ru.stqa.training.selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LinkTest.verifyLinks">
+  <component name="RunManager" selected="Gradle.CartTest.verifyAddNewProduct">
     <configuration name="CartTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -79,7 +80,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.CartTest.verifyAddNewProduct&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.training.selenium.tests.CartTest.verifyAddNewProduct&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -156,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CartTest.verifyAddNewProduct" />
         <item itemvalue="Gradle.LinkTest.verifyLinks" />
         <item itemvalue="Gradle.LogsTest.verifyLogs" />
         <item itemvalue="Gradle.LinkTest.verifyMenuItems" />
         <item itemvalue="Gradle.CartTest" />
-        <item itemvalue="Gradle.CartTest.verifyAddNewProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590613454411</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated test to check links">
+      <created>1590686686197</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590686686197</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,17 +267,22 @@
     <MESSAGE value="Test to check removing products from the cart" />
     <MESSAGE value="Test to check links" />
     <MESSAGE value="Test to check logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test to check logs" />
+    <MESSAGE value="Updated test to check links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated test to check links" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1590613040493">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="93" y="93" width="1350" height="640" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.826@0.0.1536.826" timestamp="1590613040493" />
-    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1590686668345">
+    <state x="393" y="9" key="CommitChangelistDialog2" timestamp="1590686683353">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1590686668345" />
+    <state x="393" y="9" key="CommitChangelistDialog2/0.0.1536.826@0.0.1536.826" timestamp="1590686683353" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1590695315236">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1590695315236" />
     <state width="1492" height="256" key="GridCell.Tab.-1.bottom" timestamp="1590222417552">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
@@ -286,74 +299,74 @@
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state width="1492" height="256" key="GridCell.Tab.-1.right/0.0.1536.826@0.0.1536.826" timestamp="1590222497001" />
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1590686668548">
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1590699748229">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590686668548" />
-    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1590686668548">
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590699748229" />
+    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1590699748229">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1590686668548" />
-    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1590686668548">
+    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1590699748229" />
+    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1590699748229">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1590686668548" />
-    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1590686668548">
+    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1590699748229" />
+    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1590699748229">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1590686668548" />
-    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.bottom" timestamp="1590613860123">
+    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1590699748229" />
+    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.bottom" timestamp="1590699318984">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590613860123" />
-    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.center" timestamp="1590613860118">
+    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590699318984" />
+    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.center" timestamp="1590699318984">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1590613860118" />
-    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.left" timestamp="1590613860118">
+    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.center/0.0.1536.826@0.0.1536.826" timestamp="1590699318984" />
+    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.left" timestamp="1590699318984">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1590613860118" />
-    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.right" timestamp="1590613860123">
+    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.left/0.0.1536.826@0.0.1536.826" timestamp="1590699318984" />
+    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.right" timestamp="1590699318984">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1590613860123" />
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.bottom" timestamp="1590613860123">
+    <state x="22" y="527" width="1492" height="216" key="GridCell.Tab.1.right/0.0.1536.826@0.0.1536.826" timestamp="1590699318984" />
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.bottom" timestamp="1590699318984">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590613860123" />
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.center" timestamp="1590613860123">
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590699318984" />
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.center" timestamp="1590699318984">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.center/0.0.1536.826@0.0.1536.826" timestamp="1590613860123" />
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.left" timestamp="1590613860123">
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.center/0.0.1536.826@0.0.1536.826" timestamp="1590699318984" />
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.left" timestamp="1590699318984">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.left/0.0.1536.826@0.0.1536.826" timestamp="1590613860123" />
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.right" timestamp="1590613860123">
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.left/0.0.1536.826@0.0.1536.826" timestamp="1590699318984" />
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.right" timestamp="1590699318984">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.right/0.0.1536.826@0.0.1536.826" timestamp="1590613860123" />
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.bottom" timestamp="1590613860123">
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.2.right/0.0.1536.826@0.0.1536.826" timestamp="1590699318984" />
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.bottom" timestamp="1590699318984">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590613860123" />
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.center" timestamp="1590613860123">
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.bottom/0.0.1536.826@0.0.1536.826" timestamp="1590699318984" />
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.center" timestamp="1590699318984">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.center/0.0.1536.826@0.0.1536.826" timestamp="1590613860123" />
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.left" timestamp="1590613860123">
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.center/0.0.1536.826@0.0.1536.826" timestamp="1590699318984" />
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.left" timestamp="1590699318984">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.left/0.0.1536.826@0.0.1536.826" timestamp="1590613860123" />
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.right" timestamp="1590613860123">
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.left/0.0.1536.826@0.0.1536.826" timestamp="1590699318984" />
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.right" timestamp="1590699318984">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.right/0.0.1536.826@0.0.1536.826" timestamp="1590613860123" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1590613464355">
+    <state x="0" y="238" width="1492" height="216" key="GridCell.Tab.3.right/0.0.1536.826@0.0.1536.826" timestamp="1590699318984" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1590686695640">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.826@0.0.1536.826" timestamp="1590613464355" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.826@0.0.1536.826" timestamp="1590686695640" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1590685819756">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
@@ -366,10 +379,10 @@
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="14" y="545" width="1477" height="265" key="dock-window-2/0.0.1536.826@0.0.1536.826" timestamp="1590222515145" />
-    <state x="425" y="182" key="run.anything.popup" timestamp="1590429831242">
+    <state x="425" y="182" width="672" height="677" key="run.anything.popup" timestamp="1590697896456">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="425" y="182" key="run.anything.popup/0.0.1536.826@0.0.1536.826" timestamp="1590429831242" />
+    <state x="425" y="182" width="672" height="677" key="run.anything.popup/0.0.1536.826@0.0.1536.826" timestamp="1590697896456" />
     <state x="431" y="147" width="672" height="678" key="search.everywhere.popup" timestamp="1590612310965">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
@@ -474,24 +487,49 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CartTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/tests/CartTest.java</url>
           <line>53</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CartTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/tests/CartTest.java</url>
           <line>59</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CartTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/tests/CartTest.java</url>
           <line>60</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/CartTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/tests/CartTest.java</url>
           <line>58</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/tests/CartTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/tests/CartTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/tests/CartTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/tests/CartTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/training/selenium/tests/CartTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
